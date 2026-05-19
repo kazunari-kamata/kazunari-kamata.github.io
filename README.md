@@ -8,7 +8,7 @@ https://kazunari-kamata.github.io/
 
 ## 目的
 
-公開リポジトリで作成した技術成果物を整理し、インフラ運用、EOL対応、基盤更改、検証、運用改善に関する取り組みを掲載します。
+公開リポジトリで作成した技術成果物を整理し、インフラ運用、EOL対応、基盤更改、社内SE業務、検証、運用改善に関する取り組みを掲載します。
 
 ## 掲載内容
 
@@ -16,6 +16,7 @@ https://kazunari-kamata.github.io/
 - 技術領域
 - 公開プロジェクト一覧
 - `infra-lifecycle-portal` の紹介
+- `internal-se-ops-kit` の紹介
 - GitHub リポジトリへのリンク
 
 ## 代表プロジェクト
@@ -37,6 +38,21 @@ https://github.com/kazunari-kamata/infra-lifecycle-portal
 - FastAPI による診断 API
 - React + TypeScript による簡易ダッシュボード
 - GitHub Actions による自動テスト
+
+### internal-se-ops-kit
+
+社内SE業務で発生しやすい入退社、アカウント管理、端末管理、インシデント対応、変更申請を整理するための運用テンプレート集です。
+
+Repository:
+
+https://github.com/kazunari-kamata/internal-se-ops-kit
+
+主な特徴:
+
+- 入社・退社対応のチェックリスト
+- アクセスレビュー、変更申請、インシデント報告のテンプレート
+- サンプル資産台帳を検査する Python スクリプト
+- pytest と GitHub Actions による基本的な検証構成
 
 ## ローカル確認
 
