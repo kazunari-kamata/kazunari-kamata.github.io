@@ -135,6 +135,10 @@ h3 {
   box-shadow: 0 18px 40px rgba(31, 41, 55, 0.08);
 }
 
+.card + .card {
+  margin-top: 20px;
+}
+
 .card ul {
   padding-left: 1.2rem;
 }
